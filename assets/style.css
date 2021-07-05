@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap');
+body , h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, button, select, textarea, input {
+    font-family: 'Montserrat', sans-serif;
+}
+.section {
+    padding: 80px 50px;
+}
+.section.one {
+    background-color: #0893CD;
+    color: #fff;
+}
+.section.one h2 {
+    font-weight: bold;
+}
+.section.one img {
+    width: 100%;
+    border-radius: 13px;
+}
+.section.two .sponsors {
+    text-align: center;
+}
+.section.two .sponsor {
+    max-height: 81px;
+    max-width: 185px;
+    height: auto;
+    margin: 0 20px;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+}
+.section.three {
+    background-color: #0893CD;
+    color: #fff;
+}
+.section.three h2{
+    text-align: center;
+    font-weight: bold;
+}
+.section.three img {
+    width: 100%;
+    margin: 15px 0px;
+}
+.section.three div.badge {
+    font-size: 12pt;
+    /* font-weight: 500; */
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.section.four p {
+    width: 64%;
+    margin: 30px auto;
+    font-size: 11pt;
+}
+.section.four h2 b {
+    font-weight: bold;
+}
